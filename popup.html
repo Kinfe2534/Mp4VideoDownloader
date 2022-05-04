@@ -1,0 +1,21 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src * self blob: data: gap:; style-src * self 'unsafe-inline' blob: data: gap:; script-src * 'self' 'unsafe-eval' 'unsafe-inline' blob: data: gap:; object-src * 'self' blob: data: gap:; img-src * self 'unsafe-inline' blob: data: gap:; connect-src self * 'unsafe-inline' blob: data: gap:; frame-src * self blob: data: gap:;">
+  <style>
+    html {
+      min-height: 5em;
+      min-width: 10em;
+      background: rgb(152, 106, 153);
+    }
+  </style>
+</head>
+<body>
+  <h2>MP4 Video Downloader</h2>
+  <button id="download">Download</button>
+  <script src="jquery.js"></script>
+  <script src="file_saver.js"></script> 
+  <script src="popup.js"></script>
+</body>
+</html>
